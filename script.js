@@ -33,7 +33,7 @@ for (let i = 0; i < squares.length; i++) {
             return;
         }
         currentplayer = (currentplayer === players[0]) ? players[1] : players[0];
-        endmessage.textContent = `${currentplayer} - turn`;
+        endmessage.textContent = `${currentplayer}'s turn`;
     });
 }
 
@@ -60,7 +60,7 @@ restartbtn.addEventListener('click', () => {
     for (let i = 0; i < squares.length; i++) {
         squares[i].textContent = "";
     }
-    endmessage.textContent = "X - turn";
+    endmessage.textContent = "X's turn";
     currentplayer = players[0];
     gameOver = false;
 });
