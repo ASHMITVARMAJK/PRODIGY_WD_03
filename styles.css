@@ -1,0 +1,53 @@
+body{
+    background-color: rgba(10, 32, 152, 0.744);
+    display: flex;
+    flex-direction: column;
+
+}
+.heading{
+    margin-top:0%;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+    
+}
+.game-board{
+    display: grid;
+    align-self: center;
+    grid-template-columns: repeat(3,1fr);
+    font-size: 80px;
+    gap: 5px;
+    height: 400px;
+    width: 400px;
+}
+.board{
+
+    text-align: center;
+    font-size: 80px;
+    margin: 5px;
+    background-color: aliceblue;
+    cursor: pointer;
+    height: 116px;
+    width: 116px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.466);
+}
+.text{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: aliceblue;
+}
+.restartbtn{
+    align-self: center;
+    height: 35px;
+    width: 100px;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.466);
+    border-radius: 35px;
+    border: 2px solid rgb(255, 251, 251);
+    color: rgba(10, 32, 152, 0.744);
+}
+
